@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main form {
+  width: 80%;
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main h1 {
+  color: white;
+}
+
+main form .nomeemail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main form .nomemail div {
+  width: 100%;
+}
+
+main form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+main form div label {
+  color: white;
+}
+
+main form div input,
+main form div textarea {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+}
+
+main form .btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
