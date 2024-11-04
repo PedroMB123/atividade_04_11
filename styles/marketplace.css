@@ -1,0 +1,15 @@
+main {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main div {
+  background-color: red;
+  border-radius: 30px;
+  height: 350px;
+  width: 45vh;
+}
