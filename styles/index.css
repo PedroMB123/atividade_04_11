@@ -1,0 +1,16 @@
+main {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main div {
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 30px;
+  height: 70px;
+  width: 40%;
+}
